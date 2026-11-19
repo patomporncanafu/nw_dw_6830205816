@@ -1,0 +1,17 @@
+#virtual environment
+.venv/
+venv/
+
+#ไฟล์ที่เกี่ยวข้องกับฐานข้อมูล DuckDB
+*.duckdb
+*.duckdb.wal
+
+#สิ่งที่เกี่ยวข้องกับ dbt
+target/
+logs/
+dbt_packages/
+.user.yml
+
+#python
+__pycache__/
+.DS_Store
